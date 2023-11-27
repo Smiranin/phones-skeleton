@@ -57,18 +57,35 @@ window.addEventListener('DOMContentLoaded', () => {
         } 
     } 
 
+    // phonesSearch.addEventListener('keyup', () => {
+    //     phone_list = [];
+    //     phoneContainer.innerHTML = '';
+    //     phones.forEach(item => {
+    //         let input = phonesSearch.value;
+    //         input = input.toLowerCase();
+    //         let snippet = item.snippet.toLowerCase();
+    //         if (!snippet.includes(input)) {
+    //             phone_list += item;
+    //         }
+    //     });
+    //     initPhones(phone_list);
+    // });
+
     phonesSearch.addEventListener('keyup', () => {
-        phone_list = [];
+        let phone_list = [];
+        let input = phonesSearch.value;
+        input = input.toLowerCase();
         phoneContainer.innerHTML = '';
         phones.forEach(item => {
-            let input = phonesSearch.value;
-            input = input.toLowerCase();
-            let snippet = item.snippet.toLowerCase();
-            if (!snippet.includes(input)) {
+            if (item.snippet.toLocaleLowerCase().includes(input)) {
                 phone_list += item;
+            } else {
+                // pass
             }
         });
         initPhones(phone_list);
     });
-
+    // function filterItems(arr, query) {
+    //     return arr.filter((el) => el.toLowerCase().includes(query.toLowerCase()));
+    // }
 });
