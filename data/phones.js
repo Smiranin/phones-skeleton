@@ -1,4 +1,4 @@
-phones = [
+const phones = [
     {
       "age": 0,
       "id": "motorola-xoom-with-wi-fi",
