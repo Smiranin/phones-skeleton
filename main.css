@@ -9,3 +9,12 @@
 .badge {
     margin-left: 10px;
 }
+
+.search-form {
+    width: 400px;
+    margin-top: 10px;
+}
+
+body {
+    margin-top: 60px;
+}
