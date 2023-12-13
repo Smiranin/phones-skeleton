@@ -1,0 +1,29 @@
+.page-wrap {
+    margin-top: 50px;
+}
+
+.phone-image {
+    height: 150px;
+}
+
+.badge {
+    margin-left: 10px;
+}
+
+.search-form {
+    text-align: center;
+    width: 700px;
+    margin-top: 10px;
+}
+
+body {
+    margin-top: 60px;
+}
+
+.phone {
+    cursor: pointer;
+
+
+
+>>>>>>> 1296f54 (Add badges)
+}
