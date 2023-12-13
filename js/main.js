@@ -112,7 +112,7 @@ window.addEventListener('DOMContentLoaded', () => {
             } else {
                 initPhones(newPhones)
             }
-        
+        }
 
     });
 
@@ -163,5 +163,5 @@ window.addEventListener('DOMContentLoaded', () => {
         }
 
     };
->>>>>>> 1296f54 (Add badges)
+
 });

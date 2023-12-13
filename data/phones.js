@@ -1,6 +1,4 @@
 
-phones = [
-
 const phones = [
 
     {
@@ -9,8 +7,7 @@ const phones = [
       "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
       "name": "Motorola XOOM\u2122 with Wi-Fi",
 
-      "snippet": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb)."
-
+     
       "snippet": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb).",
       "tags": ["Tablet", "Motorola", "Wifi", "Android 3.0"]
 
@@ -21,8 +18,7 @@ const phones = [
       "imageUrl": "img/phones/motorola-xoom.0.jpg",
       "name": "MOTOROLA XOOM\u2122",
 
-      "snippet": "The Next, Next Generation\n\nExperience the future with MOTOROLA XOOM, the world's first tablet powered by Android 3.0 (Honeycomb)."
-
+      
       "snippet": "The Next, Next Generation\n\nExperience the future with MOTOROLA XOOM, the world's first tablet powered by Android 3.0 (Honeycomb).",
       "tags": ["Tablet", "Motorola", "Android 3.0"]
 
@@ -34,8 +30,7 @@ const phones = [
       "imageUrl": "img/phones/motorola-atrix-4g.0.jpg",
       "name": "MOTOROLA ATRIX\u2122 4G",
 
-      "snippet": "MOTOROLA ATRIX 4G the world's most powerful smartphone."
-
+      
       "snippet": "MOTOROLA ATRIX 4G the world's most powerful smartphone.",
       "tags": ["Smartphone", "Motorola", "Android 3.0", "4G"]
 
@@ -46,8 +41,7 @@ const phones = [
       "imageUrl": "img/phones/dell-streak-7.0.jpg",
       "name": "Dell Streak 7",
 
-      "snippet": "Introducing Dell\u2122 Streak 7. Share photos, videos and movies together. It\u2019s small enough to carry around, big enough to gather around."
-
+      
       "snippet": "Introducing Dell\u2122 Streak 7. Share photos, videos and movies together. It\u2019s small enough to carry around, big enough to gather around.",
       "tags": ["Tablet", "Dell", "Movies", "Photos", "Videos"]
 
@@ -59,8 +53,7 @@ const phones = [
       "imageUrl": "img/phones/samsung-gem.0.jpg",
       "name": "Samsung Gem\u2122",
 
-      "snippet": "The Samsung Gem\u2122 brings you everything that you would expect and more from a touch display smart phone \u2013 more apps, more features and a more affordable price."
-
+      
       "snippet": "The Samsung Gem\u2122 brings you everything that you would expect and more from a touch display smart phone \u2013 more apps, more features and a more affordable price.",
       "tags": ["Smartphone", "Samsuing", "Great Features"]
 
@@ -72,8 +65,7 @@ const phones = [
       "imageUrl": "img/phones/dell-venue.0.jpg",
       "name": "Dell Venue",
 
-      "snippet": "The Dell Venue; Your Personal Express Lane to Everything"
-
+      
       "snippet": "The Dell Venue; Your Personal Express Lane to Everything",
       "tags": ["Smartphone", "Dell", "Great Personal Features"]
 
@@ -85,8 +77,7 @@ const phones = [
       "imageUrl": "img/phones/nexus-s.0.jpg",
       "name": "Nexus S",
 
-      "snippet": "Fast just got faster with Nexus S. A pure Google experience, Nexus S is the first phone to run Gingerbread (Android 2.3), the fastest version of Android yet."
-
+      
       "snippet": "Fast just got faster with Nexus S. A pure Google experience, Nexus S is the first phone to run Gingerbread (Android 2.3), the fastest version of Android yet.",
       "tags": ["Smartphone", "Google", "Android 2.3", "Fastest Android Yet."]
 
@@ -98,7 +89,6 @@ const phones = [
       "imageUrl": "img/phones/lg-axis.0.jpg",
       "name": "LG Axis",
 
-      "snippet": "Android Powered, Google Maps Navigation, 5 Customizable Home Screens"
 
       "snippet": "Android Powered, Google Maps Navigation, 5 Customizable Home Screens",
       "tags": ["Smartphone", "Google", "Maps"]
@@ -110,7 +100,6 @@ const phones = [
       "imageUrl": "img/phones/samsung-galaxy-tab.0.jpg",
       "name": "Samsung Galaxy Tab\u2122",
 
-      "snippet": "Feel Free to Tab\u2122. The Samsung Galaxy Tab\u2122 brings you an ultra-mobile entertainment experience through its 7\u201d display, high-power processor and Adobe\u00ae Flash\u00ae Player compatibility."
 
       "snippet": "Feel Free to Tab\u2122. The Samsung Galaxy Tab\u2122 brings you an ultra-mobile entertainment experience through its 7\u201d display, high-power processor and Adobe\u00ae Flash\u00ae Player compatibility.",
       "tags": ["Tablet", "Samsung", "High Power Processor"]
@@ -123,7 +112,6 @@ const phones = [
       "imageUrl": "img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg",
       "name": "Samsung Showcase\u2122 a Galaxy S\u2122 phone",
 
-      "snippet": "The Samsung Showcase\u2122 delivers a cinema quality experience like you\u2019ve never seen before. Its innovative 4\u201d touch display technology provides rich picture brilliance, even outdoors"
 
       "snippet": "The Samsung Showcase\u2122 delivers a cinema quality experience like you\u2019ve never seen before. Its innovative 4\u201d touch display technology provides rich picture brilliance, even outdoors",
       "tags": ["Smartphone", "Samsung", "Movies"]
@@ -136,7 +124,6 @@ const phones = [
       "imageUrl": "img/phones/droid-2-global-by-motorola.0.jpg",
       "name": "DROID\u2122 2 Global by Motorola",
 
-      "snippet": "The first smartphone with a 1.2 GHz processor and global capabilities."
 
       "snippet": "The first smartphone with a 1.2 GHz processor and global capabilities.",
       "tags": ["Smartphone", "Motorola", "1.2 GHz Processor"]
@@ -149,8 +136,7 @@ const phones = [
       "imageUrl": "img/phones/droid-pro-by-motorola.0.jpg",
       "name": "DROID\u2122 Pro by Motorola",
 
-      "snippet": "The next generation of DOES."
-
+      
       "snippet": "The next generation of DOES.",
       "tags": ["Smartphone", "Motorola", "Verizon"]
 
@@ -162,8 +148,7 @@ const phones = [
       "imageUrl": "img/phones/motorola-bravo-with-motoblur.0.jpg",
       "name": "MOTOROLA BRAVO\u2122 with MOTOBLUR\u2122",
 
-      "snippet": "An experience to cheer about."
-
+      
       "snippet": "An experience to cheer about.",
       "tags": ["Smartphone", "Motorola", "AT&amp;T"]
 
@@ -175,8 +160,7 @@ const phones = [
       "imageUrl": "img/phones/motorola-defy-with-motoblur.0.jpg",
       "name": "Motorola DEFY\u2122 with MOTOBLUR\u2122",
 
-      "snippet": "Are you ready for everything life throws your way?"
-
+      
       "snippet": "Are you ready for everything life throws your way?",
       "tags": ["Smartphone", "Motorola", "T-Mobile"]
 
@@ -188,8 +172,7 @@ const phones = [
       "imageUrl": "img/phones/t-mobile-mytouch-4g.0.jpg",
       "name": "T-Mobile myTouch 4G",
 
-      "snippet": "The T-Mobile myTouch 4G is a premium smartphone designed to deliver blazing fast 4G speeds so that you can video chat from practically anywhere, with or without Wi-Fi."
-
+      
       "snippet": "The T-Mobile myTouch 4G is a premium smartphone designed to deliver blazing fast 4G speeds so that you can video chat from practically anywhere, with or without Wi-Fi.",
       "tags": ["Smartphone", "Wifi", "Bluetooth"]
 
@@ -201,7 +184,6 @@ const phones = [
       "imageUrl": "img/phones/samsung-mesmerize-a-galaxy-s-phone.0.jpg",
       "name": "Samsung Mesmerize\u2122 a Galaxy S\u2122 phone",
 
-      "snippet": "The Samsung Mesmerize\u2122 delivers a cinema quality experience like you\u2019ve never seen before. Its innovative 4\u201d touch display technology provides rich picture brilliance,even outdoors"
 
       "snippet": "The Samsung Mesmerize\u2122 delivers a cinema quality experience like you\u2019ve never seen before. Its innovative 4\u201d touch display technology provides rich picture brilliance,even outdoors",
       "tags": ["Smartphone", "Wifi", "Bluetooth"]
@@ -214,7 +196,6 @@ const phones = [
       "imageUrl": "img/phones/sanyo-zio.0.jpg",
       "name": "SANYO ZIO",
 
-      "snippet": "The Sanyo Zio by Kyocera is an Android smartphone with a combination of ultra-sleek styling, strong performance and unprecedented value."
 
       "snippet": "The Sanyo Zio by Kyocera is an Android smartphone with a combination of ultra-sleek styling, strong performance and unprecedented value.",
       "tags": ["Smartphone", "Wifi", "Bluetooth"]
@@ -226,7 +207,6 @@ const phones = [
       "imageUrl": "img/phones/samsung-transform.0.jpg",
       "name": "Samsung Transform\u2122",
 
-      "snippet": "The Samsung Transform\u2122 brings you a fun way to customize your Android powered touch screen phone to just the way you like it through your favorite themed \u201cSprint ID Service Pack\u201d."
 
       "snippet": "The Samsung Transform\u2122 brings you a fun way to customize your Android powered touch screen phone to just the way you like it through your favorite themed \u201cSprint ID Service Pack\u201d.",
       "tags": ["Smartphone", "Wifi", "Bluetooth"]
@@ -238,7 +218,6 @@ const phones = [
       "imageUrl": "img/phones/t-mobile-g2.0.jpg",
       "name": "T-Mobile G2",
 
-      "snippet": "The T-Mobile G2 with Google is the first smartphone built for 4G speeds on T-Mobile's new network. Get the information you need, faster than you ever thought possible."
 
       "snippet": "The T-Mobile G2 with Google is the first smartphone built for 4G speeds on T-Mobile's new network. Get the information you need, faster than you ever thought possible.",
       "tags":["",]
@@ -250,13 +229,11 @@ const phones = [
       "imageUrl": "img/phones/motorola-charm-with-motoblur.0.jpg",
       "name": "Motorola CHARM\u2122 with MOTOBLUR\u2122",
 
-      "snippet": "Motorola CHARM fits easily in your pocket or palm.  Includes MOTOBLUR service."
-    }
-  ]
-
       "snippet": "Motorola CHARM fits easily in your pocket or palm.  Includes MOTOBLUR service.",
       "tags":["",]
     }
   ]
+
+
 
 
