@@ -9,6 +9,8 @@ window.addEventListener('DOMContentLoaded', () => {
     let new_phones = [];
     let sortAlphabetically = false;
     let phone_elements = document.querySelectorAll('.phone');
+    let currentPhones = [];
+    currentPhones = phones;
 
 
     toggleTheme.addEventListener('click', () => {
@@ -96,21 +98,48 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         });
     };
-    initPhones(phones);
+    initPhones(currentPhones);
+
+
+    function checkIfImageExists(parentFolder, subFolder, name, number, callback) {
+        const img = new Image();
+        img.src = `${parentFolder}/${subFolder}/${name}.${number}.jpg`;
+        
+        if (img.complete) {
+          callback(true, img.src);
+        } else {
+          img.onload = () => {
+            callback(true, img.src);
+          };
+          
+          img.onerror = () => {
+            callback(false, img.src);
+          };
+        }
+      }
+
+      checkIfImageExists('img', 'phones', 'samsung-showcase-a-galaxy-s-phone', '2', (exists, url) => {
+        if (exists) {
+            return url;
+        } else {
+            return false;
+        }
+      });
     
     phonesSearch.addEventListener('keyup', () => {
         const phonesInputTrimmed = phonesSearch.value.trim();
         console.log(phonesInputTrimmed)
         if (phonesInputTrimmed === '') {
-            initPhones(phones);
+            initPhones(currentPhones);
         } else {
             let phonesSearchInput = phonesSearch.value;
             phonesSearchInput = phonesSearchInput.toLowerCase();
-            const newPhones = phones.filter(item => item['snippet'].toLowerCase().includes(phonesSearchInput));
+            currentPhones = phones.filter(item => item['snippet'].toLowerCase().includes(phonesSearchInput));
             if (sortAlphabetically) {
-                sortBy(true, newPhones);
+                sortBy(true, currentPhones);
             } else {
-                initPhones(newPhones)
+                currentPhones = phones;
+                initPhones(currentPhones)
             }
         }
 
@@ -121,14 +150,14 @@ window.addEventListener('DOMContentLoaded', () => {
         element.addEventListener('click', () => {
             switch (Number(element.id)) {
                 case 0:
-                    sortBy('rele', phones);
+                    sortBy('rele', currentPhones);
                     break;
                 case 1:
                     sortAlphabetically = true;
-                    sortBy(sortAlphabetically, phones);
+                    sortBy(sortAlphabetically, currentPhones);
                     break;
                 case 2:
-                    sortBy('new', phones);
+                    sortBy('new', currentPhones);
                     break;
             }
         });
@@ -157,7 +186,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 alpha = false;
                 break;
             default:
-                initPhones(phones);
+                initPhones(currentPhones);
 
 
         }

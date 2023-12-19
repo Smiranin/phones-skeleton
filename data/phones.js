@@ -7,7 +7,7 @@ const phones = [
       "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
       "name": "Motorola XOOM\u2122 with Wi-Fi",
 
-     
+
       "snippet": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb).",
       "tags": ["Tablet", "Motorola", "Wifi", "Android 3.0"]
 
@@ -228,7 +228,6 @@ const phones = [
       "id": "motorola-charm-with-motoblur",
       "imageUrl": "img/phones/motorola-charm-with-motoblur.0.jpg",
       "name": "Motorola CHARM\u2122 with MOTOBLUR\u2122",
-
       "snippet": "Motorola CHARM fits easily in your pocket or palm.  Includes MOTOBLUR service.",
       "tags":["",]
     }
